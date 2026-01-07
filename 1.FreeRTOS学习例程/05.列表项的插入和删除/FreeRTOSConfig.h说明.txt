@@ -1,0 +1,10 @@
+位于FreeRTOS\include中，它是FreeRTOS系统配置文件
+对FreeRTOS进行功能配置和裁剪，以及API函数的使能
+
+官方文档详细说明：https://www.freertos.org/a00110.html
+正点原子《FreeRTOS开发指南》第三章—FreeRTOS系统配置
+
+相关宏大致可分为三类：
+“INCLUDE”：配置FreeRTOS中可选的API函数
+“config”：完成FreeRTOS的功能配置和裁剪
+其他配置项：PendSV宏定义、SVC宏定义
